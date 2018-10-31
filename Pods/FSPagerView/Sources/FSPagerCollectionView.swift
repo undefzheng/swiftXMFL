@@ -52,14 +52,11 @@ class FSPagerViewCollectionView: UICollectionView {
     
     fileprivate func commonInit() {
         self.contentInset = .zero
-        self.decelerationRate = UIScrollView.DecelerationRate.fast
+        self.decelerationRate = UIScrollViewDecelerationRateFast
         self.showsVerticalScrollIndicator = false
         self.showsHorizontalScrollIndicator = false
         if #available(iOS 10.0, *) {
             self.isPrefetchingEnabled = false
-        }
-        if #available(iOS 11.0, *) {
-            self.contentInsetAdjustmentBehavior = .never
         }
         #if !os(tvOS)
             self.scrollsToTop = false

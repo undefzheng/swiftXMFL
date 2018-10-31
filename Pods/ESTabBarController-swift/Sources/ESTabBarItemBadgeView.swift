@@ -33,7 +33,7 @@ import UIKit
 open class ESTabBarItemBadgeView: UIView {
     
     /// 默认颜色
-    public static var defaultBadgeColor = UIColor(red: 255.0/255.0, green: 59.0/255.0, blue: 48.0/255.0, alpha: 1.0)
+    open static var defaultBadgeColor = UIColor(red: 255.0/255.0, green: 59.0/255.0, blue: 48.0/255.0, alpha: 1.0)
     
     /// Badge color
     open var badgeColor: UIColor? = defaultBadgeColor {
