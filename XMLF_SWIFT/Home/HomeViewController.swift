@@ -10,6 +10,7 @@ import UIKit
 
 class HomeViewController: LYBaseViewController {
     override func viewDidLoad() {
-        
+        self.view.backgroundColor = UIColor.white
+        print("进来了")
     }
 }

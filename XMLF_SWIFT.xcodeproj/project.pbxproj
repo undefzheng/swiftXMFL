@@ -27,6 +27,12 @@
 		C53F18B7218862A700D612E4 /* LYBouncesContenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F18B6218862A700D612E4 /* LYBouncesContenView.swift */; };
 		C53F18B92188655E00D612E4 /* LYLrregularContenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F18B82188655E00D612E4 /* LYLrregularContenView.swift */; };
 		C53F18BB218868E700D612E4 /* LYNaigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53F18BA218868E700D612E4 /* LYNaigationViewController.swift */; };
+		C54CF92E2189796A00C16C07 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54CF92D2189796A00C16C07 /* Const.swift */; };
+		C54CF93621897AE500C16C07 /* WRNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54CF93021897AE500C16C07 /* WRNavigationBar.swift */; };
+		C54CF93721897AE500C16C07 /* WRCustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54CF93121897AE500C16C07 /* WRCustomNavigationBar.swift */; };
+		C54CF93821897AE500C16C07 /* WRProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54CF93321897AE500C16C07 /* WRProxy.swift */; };
+		C54CF93921897AE500C16C07 /* WRCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54CF93421897AE500C16C07 /* WRCycleScrollView.swift */; };
+		C54CF93A21897AE500C16C07 /* WRCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54CF93521897AE500C16C07 /* WRCycleCell.swift */; };
 		D2BB755F6CF022BC70297093 /* Pods_XMLF_SWIFT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B82B19C966E54989085C76F /* Pods_XMLF_SWIFT.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +57,7 @@
 		3B82B19C966E54989085C76F /* Pods_XMLF_SWIFT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMLF_SWIFT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7E12B8D92758BB3D49B53A /* Pods-XMLF_SWIFT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMLF_SWIFT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMLF_SWIFT/Pods-XMLF_SWIFT.debug.xcconfig"; sourceTree = "<group>"; };
 		C53F185D2187F31000D612E4 /* XMLF_SWIFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLF_SWIFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C53F18602187F31000D612E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C53F18602187F31000D612E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		C53F18672187F31200D612E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C53F186A2187F31200D612E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C53F186C2187F31200D612E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +82,12 @@
 		C53F18B6218862A700D612E4 /* LYBouncesContenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYBouncesContenView.swift; sourceTree = "<group>"; };
 		C53F18B82188655E00D612E4 /* LYLrregularContenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYLrregularContenView.swift; sourceTree = "<group>"; };
 		C53F18BA218868E700D612E4 /* LYNaigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYNaigationViewController.swift; sourceTree = "<group>"; };
+		C54CF92D2189796A00C16C07 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		C54CF93021897AE500C16C07 /* WRNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRNavigationBar.swift; sourceTree = "<group>"; };
+		C54CF93121897AE500C16C07 /* WRCustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCustomNavigationBar.swift; sourceTree = "<group>"; };
+		C54CF93321897AE500C16C07 /* WRProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRProxy.swift; sourceTree = "<group>"; };
+		C54CF93421897AE500C16C07 /* WRCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleScrollView.swift; sourceTree = "<group>"; };
+		C54CF93521897AE500C16C07 /* WRCycleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleCell.swift; sourceTree = "<group>"; };
 		DFBF220AC16527CFE798FFC0 /* Pods-XMLF_SWIFT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMLF_SWIFT.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMLF_SWIFT/Pods-XMLF_SWIFT.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,6 +159,7 @@
 		C53F185F2187F31000D612E4 /* XMLF_SWIFT */ = {
 			isa = PBXGroup;
 			children = (
+				C54CF92C2189794F00C16C07 /* Common */,
 				C53F18A921884AD300D612E4 /* Resoure */,
 				C53F18A52188082800D612E4 /* Librarty */,
 				C53F189A2187FB9300D612E4 /* Find */,
@@ -242,6 +255,7 @@
 		C53F18A52188082800D612E4 /* Librarty */ = {
 			isa = PBXGroup;
 			children = (
+				C54CF92F21897AE500C16C07 /* WRNavigationBar */,
 				C53F18A62188084800D612E4 /* LYGuidePageHUD */,
 			);
 			path = Librarty;
@@ -282,6 +296,34 @@
 				C53F18B82188655E00D612E4 /* LYLrregularContenView.swift */,
 			);
 			path = TabbarView;
+			sourceTree = "<group>";
+		};
+		C54CF92C2189794F00C16C07 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C54CF92D2189796A00C16C07 /* Const.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C54CF92F21897AE500C16C07 /* WRNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				C54CF93021897AE500C16C07 /* WRNavigationBar.swift */,
+				C54CF93121897AE500C16C07 /* WRCustomNavigationBar.swift */,
+				C54CF93221897AE500C16C07 /* WRCycleScrollView */,
+			);
+			path = WRNavigationBar;
+			sourceTree = "<group>";
+		};
+		C54CF93221897AE500C16C07 /* WRCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				C54CF93321897AE500C16C07 /* WRProxy.swift */,
+				C54CF93421897AE500C16C07 /* WRCycleScrollView.swift */,
+				C54CF93521897AE500C16C07 /* WRCycleCell.swift */,
+			);
+			path = WRCycleScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -500,15 +542,21 @@
 				C53F189C2187FBF400D612E4 /* PlayViewController.swift in Sources */,
 				C53F18982187FB7500D612E4 /* LYBaseViewController.swift in Sources */,
 				C53F18B52188610F00D612E4 /* LYBasicContentView.swift in Sources */,
+				C54CF93821897AE500C16C07 /* WRProxy.swift in Sources */,
 				C53F18A82188090A00D612E4 /* LYGuidePageHUD.swift in Sources */,
 				C53F18BB218868E700D612E4 /* LYNaigationViewController.swift in Sources */,
 				C53F18B92188655E00D612E4 /* LYLrregularContenView.swift in Sources */,
 				C53F18B7218862A700D612E4 /* LYBouncesContenView.swift in Sources */,
+				C54CF93921897AE500C16C07 /* WRCycleScrollView.swift in Sources */,
 				C53F18A42187FC7100D612E4 /* FindViewController.swift in Sources */,
 				C53F18612187F31000D612E4 /* AppDelegate.swift in Sources */,
 				C53F189E2187FC2500D612E4 /* MineViewController.swift in Sources */,
+				C54CF93621897AE500C16C07 /* WRNavigationBar.swift in Sources */,
+				C54CF93A21897AE500C16C07 /* WRCycleCell.swift in Sources */,
 				C53F18A22187FC5E00D612E4 /* HomeViewController.swift in Sources */,
 				C53F18A02187FC3E00D612E4 /* ListenViewController.swift in Sources */,
+				C54CF93721897AE500C16C07 /* WRCustomNavigationBar.swift in Sources */,
+				C54CF92E2189796A00C16C07 /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,6 +661,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -667,6 +716,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -679,14 +729,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W74YV9GZDZ;
 				INFOPLIST_FILE = XMLF_SWIFT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appscomm.eliteSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -698,14 +749,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W74YV9GZDZ;
 				INFOPLIST_FILE = XMLF_SWIFT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appscomm.eliteSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

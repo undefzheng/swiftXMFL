@@ -8,9 +8,6 @@
 
 import UIKit
 
-let LYScreenWidth = UIScreen.main.bounds.size.width
-let LYScreenHeight = UIScreen.main.bounds.size.height
-
 class LYGuidePageHUD: UIView {
 
     var imageArray: [String]?

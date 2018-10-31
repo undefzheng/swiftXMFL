@@ -21,12 +21,12 @@ class LYBouncesContenView: LYBasicContentView {
     }
 
     override func selectAnimation(animated: Bool, completion: (() -> ())?) {
-        self.bounceAnimation()
+        bounceAnimation()
         completion?()
     }
     
     override func reselectAnimation(animated: Bool, completion: (() -> ())?) {
-        self.bounceAnimation()
+        bounceAnimation()
         completion?()
     }
     
@@ -34,7 +34,7 @@ class LYBouncesContenView: LYBasicContentView {
         let anmation = CAKeyframeAnimation(keyPath: "transform.scale")
         anmation.values = [1.0 ,1.4, 0.9, 1.15, 0.95, 1.02, 1.0]
         anmation.duration = duration * 2
-        anmation.calculationMode = CAAnimationCalculationMode.cubic
+        anmation.calculationMode = kCAAnimationCubic
         imageView.layer.add(anmation, forKey: nil)
     }
 }

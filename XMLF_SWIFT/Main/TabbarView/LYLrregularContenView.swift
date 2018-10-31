@@ -19,7 +19,7 @@ class LYBasicLrregularContenView: LYBouncesContenView {
         highlightIconColor = UIColor.init(red: 254/255.0, green: 73/255.0, blue: 42/255.0, alpha: 1.0)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }
@@ -36,7 +36,7 @@ class LYLrregularContenView: ESTabBarItemContentView {
         self.insets = UIEdgeInsets(top: -23, left: 0, bottom: 0, right: 0)
         let transform = CGAffineTransform.identity
         self.imageView.transform = transform
-        self.superview?.bringSubviewToFront(self)
+        self.superview?.bringSubview(toFront: self)
         
         textColor = UIColor.init(white: 255.0 / 255.0, alpha: 1.0)
         highlightTextColor = UIColor.init(white: 255.0 / 255.0, alpha: 1.0)
@@ -46,7 +46,7 @@ class LYLrregularContenView: ESTabBarItemContentView {
         highlightBackdropColor = .clear
     }
 
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
