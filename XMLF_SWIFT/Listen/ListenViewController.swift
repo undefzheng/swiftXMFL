@@ -10,6 +10,7 @@ import UIKit
 
 class ListenViewController: LYBaseViewController {
     override func viewDidLoad() {
-        
+        super.viewDidLoad()
+        self.view.backgroundColor = UIColor.white
     }
 }

@@ -82,7 +82,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let nv5 = LYNaigationViewController.init(rootViewController: v5)
         v1.title = "首页"
         v2.title = "我听"
-        v3.title = "播放"
+        v3.title = ""
         v4.title = "发现"
         v5.title = "我的"
         
